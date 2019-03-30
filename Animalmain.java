@@ -17,9 +17,9 @@ public class Animalmain {
         }
         Robot robofrogy = new RobotFrog();
         System.out.println(robofrogy.name);
-        ((RobotFrog)(robofrogy)).walk();
-        (((RobotFrog)robofrogy)).play();
-        (((RobotFrog)robofrogy)).isCute();
+        ((RobotFrog)robofrogy).walk();
+        ((RobotFrog)robofrogy).play();
+        ((RobotFrog)robofrogy).isCute();
         
     }
 }
