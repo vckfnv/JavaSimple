@@ -1,3 +1,4 @@
+package ldhjava;
 public class Frogtest {
 
     public static void main(String[] args) {

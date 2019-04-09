@@ -1,3 +1,4 @@
+package ldhjava;
 public class Salamander extends Amphibian{
     int lifespan = 6;
 
