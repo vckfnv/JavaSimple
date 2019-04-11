@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Mygui",
+            "request": "launch",
+            "mainClass": "Mygui"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Animalmain",
+            "request": "launch",
+            "mainClass": "ldhjava.Animalmain"
+        }
+    ]
+}

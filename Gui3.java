@@ -1,24 +1,24 @@
-package ldhjava;
 import javax.swing.*;
 import java.awt.event.*;
-
-public class Gui2 implements ActionListener{
+public class Gui3 extends JFrame implements ActionListener{
     //private static String labelPrefix = "Num of button clicks : ";
     private int click = 0;
     JLabel label = new JLabel("Num of button clicks : "+ "0     ");
-    public void go ( String title){
-        JFrame frame = new JFrame(title);
+    public Gui3 (String title){
+        super(title);
         JButton button = new JButton("Swing button!");
         
         //add action listener!
         button.addActionListener(this);
+        
         JPanel panel = new JPanel();
         panel.add(button);
         panel.add(label);
-        frame.getContentPane().add(panel);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
+       
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        getContentPane().add(panel);
+        pack();
+        setVisible(true);
 
     }
     //implement actionperform!
@@ -26,7 +26,6 @@ public class Gui2 implements ActionListener{
         label.setText("Num of button clicks : "+ ++click);
     }
     public static void main(String[] args){
-        Gui2 button = new Gui2();
-        button.go("Event handling");
+        new Gui3("SwingApp");
     }
 }
