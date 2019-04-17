@@ -1,4 +1,4 @@
-package ldhjava;
+package gui;
 import javax.swing.*;
 import java.awt.FlowLayout;
 import java.awt.event.*;

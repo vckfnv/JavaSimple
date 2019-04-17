@@ -1,4 +1,4 @@
-package ldhjava;
+package animal;
 public class Robot{
     
     String name;

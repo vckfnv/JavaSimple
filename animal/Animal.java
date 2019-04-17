@@ -1,4 +1,4 @@
-package ldhjava;
+package animal;
 public abstract class Animal {
  
     int lifespan;

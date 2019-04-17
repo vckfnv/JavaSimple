@@ -1,12 +1,12 @@
-package ldhjava;
+package gui;
 import javax.swing.*;
-public class HelloworldGui {
+public class Guii {
     public static void main(String [] args) {
         JFrame frame = new JFrame("Hello");
-        final JLabel label = new JLabel("Hello world");
-        frame.getContentPane().add(label);
+        JButton button = new JButton("click Hello world");
+        frame.getContentPane().add(button);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
+        frame.setSize(300,300);
         frame.setVisible(true);
         
     }

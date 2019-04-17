@@ -1,4 +1,4 @@
-package ldhjava;
+package animal;
 public class Frogtest {
 
     public static void main(String[] args) {

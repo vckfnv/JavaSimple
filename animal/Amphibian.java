@@ -1,4 +1,4 @@
-package ldhjava;
+package animal;
 public class Amphibian extends Animal{
     
     public Amphibian(){

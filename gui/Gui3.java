@@ -1,4 +1,4 @@
-import javax.swing.*;
+package gui;
 import java.awt.event.*;
 public class Gui3 extends JFrame implements ActionListener{
     //private static String labelPrefix = "Num of button clicks : ";

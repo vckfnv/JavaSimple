@@ -1,4 +1,4 @@
-package ldhjava;
+package animal;
 public class Frog extends Amphibian implements Pet{
     //int lifespan = 10;
     public Frog(){
