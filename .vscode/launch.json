@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Mycalcul",
+            "request": "launch",
+            "mainClass": "Mycalcul"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Mygui",
             "request": "launch",
             "mainClass": "Mygui"

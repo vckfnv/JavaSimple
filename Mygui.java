@@ -1,3 +1,4 @@
+package ldhjava;
 import javax.swing.*;
 import java.awt.FlowLayout;
 import java.awt.event.*;
@@ -43,7 +44,7 @@ public class Mygui implements ActionListener{
 		});
 		// add button to dialog
 		jDialog.add(jButton, "East");
-		jDialog.add(jButton2, "West");
+		jDialog.add(jButton2, "North");
 
 		// set size of dialog
 		jDialog.setSize(300, 300);
