@@ -13,7 +13,7 @@ public class Mycalcul implements ActionListener{
 	public Mycalcul(){
         
         //Container c = frame.getContentPane();
-        panel.setLayout(new GridLayout(3,3));
+        panel.setLayout(new GridLayout(3,4));
 
         JButton b1, b2, b3, b4, b5, b6, b7, b8, b9; 
         // create number buttons 
@@ -36,7 +36,7 @@ public class Mycalcul implements ActionListener{
         b3.addActionListener(this); 
         b2.addActionListener(this); 
         b1.addActionListener(this);
-
+        //add buttons to panel
         panel.add(b1); 
         panel.add(b2); 
         panel.add(b3);  
@@ -49,22 +49,21 @@ public class Mycalcul implements ActionListener{
         panel.add(jfield);
 		// set size of frame
 		frame.setSize(500, 500);
-		frame.setVisible(true);
+		
 		//exit when click x button
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		//add label
 		frame.getContentPane().add(panel);
 		//Center alignment of Label in the Frame
-		//frame.setLayout(new FlowLayout());
-		
-		
-
+        //frame.setLayout(new FlowLayout());
+        frame.setVisible(true);
 	}
-
+    //action performing to event
     public void actionPerformed(ActionEvent e) 
     { 
+        //get button name
         String s = e.getActionCommand(); 
-        
+        //put String to jfield
         jfield.setText(s);}
         
     public static void main(String[] args)
