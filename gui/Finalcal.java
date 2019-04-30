@@ -56,8 +56,8 @@ public class Finalcal extends JFrame{
         panel[1].add(panel[2],"East");
         panel[1].add(panel[3],"Center");
         //each panel 2,3 will be gridlayout
-        panel[2].setLayout(new GridLayout(5,1));
-        panel[3].setLayout(new GridLayout(5,3));
+        panel[2].setLayout(new GridLayout(5,1));//operator
+        panel[3].setLayout(new GridLayout(5,3));//others
         //add textarea to panel 0
         panel[0].add(jarea);
 
@@ -69,19 +69,15 @@ public class Finalcal extends JFrame{
             int j = i;
             btn[i].addActionListener(e -> {
                 String tgl = btn[j].getActionCommand();
+                currCal = tgl+"("+currCal+")";
+                label.setText(currCal);
                 if (tgl == "sin"){
-                    currCal= tgl+currCal;
-                    label.setText(currCal);
                     currNum = String.valueOf(Math.sin(Math.toRadians(Double.parseDouble(currNum))));
                     jarea.setText(currNum);
                 }if (tgl == "cos"){
-                    currCal= tgl+currCal;
-                    label.setText(currCal);
                     currNum = String.valueOf(Math.cos(Math.toRadians(Double.parseDouble(currNum))));
                     jarea.setText(currNum);
                 }if (tgl == "tan"){
-                    currCal= tgl+currCal;
-                    label.setText(currCal);
                     currNum = String.valueOf(Math.tan(Math.toRadians(Double.parseDouble(currNum))));
                     jarea.setText(currNum);
                 }
