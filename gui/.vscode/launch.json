@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Anima",
+            "request": "launch",
+            "mainClass": "gui.Anima"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Mygui",
+            "request": "launch",
+            "mainClass": "gui.Mygui"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Mycalcul",
+            "request": "launch",
+            "mainClass": "gui.Mycalcul"
+        }
+    ]
+}

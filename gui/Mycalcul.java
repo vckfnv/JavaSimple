@@ -17,6 +17,7 @@ public class Mycalcul implements ActionListener{
 
         JButton b1, b2, b3, b4, b5, b6, b7, b8, b9; 
         // create number buttons 
+        
         b1 = new JButton("1"); 
         b2 = new JButton("2"); 
         b3 = new JButton("3"); 

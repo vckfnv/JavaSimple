@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Newcal",
+            "request": "launch",
+            "mainClass": "gui.newcal.Newcal",
+            "projectName": "ldhjava_ea9f1bb5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Mycalcul",
+            "request": "launch",
+            "mainClass": "gui.Mycalcul",
+            "projectName": "ldhjava_ea9f1bb5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Finalcal",
+            "request": "launch",
+            "mainClass": "gui.Finalcal",
+            "projectName": "ldhjava_ea9f1bb5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Guii",
+            "request": "launch",
+            "mainClass": "gui.Guii",
+            "projectName": "ldhjava_ea9f1bb5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Anima",
+            "request": "launch",
+            "mainClass": "gui.Anima",
+            "projectName": "ldhjava_ea9f1bb5"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Mycalcul",
             "request": "launch",
             "mainClass": "Mycalcul"

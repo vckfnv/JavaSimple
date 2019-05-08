@@ -4,7 +4,7 @@ public abstract class Animal {
     int lifespan;
     String speices;
     String skin;
-    String food;
+    private String food;
     String name;
     
     public void eat(){

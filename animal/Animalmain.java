@@ -22,5 +22,6 @@ public class Animalmain {
         ((RobotFrog)robofrogy).play();
         ((RobotFrog)robofrogy).isCute();
         
+        
     }
 }

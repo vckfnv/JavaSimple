@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.FlowLayout;
 import java.awt.event.*;
 
-public class Mygui implements ActionListener{
+public class Mygui{
 	private static String labelPrefix = "Num of button clicks : ";
     private int click = 0;
 	JFrame jFrame = new JFrame("Dialog and button");
@@ -28,13 +28,7 @@ public class Mygui implements ActionListener{
 		jFrame.setLayout(new FlowLayout());
 
 		//add actionlistener to button
-		jButton.addActionListener(new ActionListener(){
-		
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				jLabel.setText(labelPrefix + ++click);
-			}
-		});
+		jButton.addActionListener(e -> jLabel.setText(labelPrefix + ++click));
 		jButton2.addActionListener(new ActionListener(){
 		
 			@Override
