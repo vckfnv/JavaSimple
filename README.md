@@ -1,5 +1,30 @@
 ## JAVAPRACTICE by LEEDAEHEE
 
+### 0508 Make Calulator 'Finalcal' more like *OOP* 'Newcal'
+> still chainging...
+### 0430 Calculator 'Finalcal' finalize.
+> calculator with rounded border buttons
+>> Button functions<br>
+>> - Trigonometric function
+>> - Clear
+>> - Delete(Backspace)Basic Operations(+,-,×,÷)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - This is LEEDAEHEE's **JAVA** Practice repository.  
 - Every codes and scripts will be uploaded in here.  
 - I'm interested in Art&Culture, also Mathmatics  
