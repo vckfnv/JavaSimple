@@ -8,7 +8,8 @@
 >> - Trigonometric function
 >> - Clear
 >> - Delete(Backspace)Basic Operations(+,-,×,÷)
-
+### 0423 mid-term test!
+>> Funny exam~
 
 
 
