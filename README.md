@@ -2,14 +2,16 @@
 
 ### 0508 Make Calulator 'Finalcal' more like *OOP* 'Newcal'
 > still chainging...
+
 ### 0430 Calculator 'Finalcal' finalize.
 > calculator with rounded border buttons
 >> Button functions<br>
 >> - Trigonometric function
 >> - Clear
 >> - Delete(Backspace)Basic Operations(+,-,×,÷)
+
 ### 0423 mid-term test!
->> Funny exam~
+> Funny exam~
 
 
 
