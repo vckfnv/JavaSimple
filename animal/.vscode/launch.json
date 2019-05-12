@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Savetback",
+            "request": "launch",
+            "mainClass": "Savetback"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Animalmain",
             "request": "launch",
             "mainClass": "animal.Animalmain"

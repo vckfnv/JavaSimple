@@ -1,5 +1,6 @@
 package animal;
-public class Frog extends Amphibian implements Pet{
+import java.io.Serializable;
+public class Frog extends Amphibian implements Pet, Serializable{
     //int lifespan = 10;
     public Frog(){
         lifespan =10;
