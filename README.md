@@ -1,11 +1,7 @@
 ## JAVAPRACTICE by LEEDAEHEE
 
 ### Before 0523, get JAVA files through Github
-
-> Install VScode as deb file at your firefox, EC2 server(VNC)
-> then install this
->> ``` sudo apt install <directory path><downloaded file>.deb 
-   ```
+> Install VScode as deb file at your firefox, EC2 server(VNC) then install deb file
 
 ### 0516 Setup Desktop on EC2, AWS
 > Process
