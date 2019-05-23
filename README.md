@@ -1,5 +1,30 @@
 ## JAVAPRACTICE by LEEDAEHEE
-
+### 0516 Setup Desktop on EC2, AWS
+> Process
+>> 1. Install **tasksel** in your EC2 server
+>> 2. Install **ubuntu mate core**
+>>> ```sudo tasksel install ubuntu-mate-core```
+>> 3. Install **VNC server**
+>>> ```sudo apt install vnc4server```
+>> 4. Install **RealVNC** or tightVNC on your host!
+>> 5. then open your **xstartup** as vi at .vnc directory / **modify** as below
+>>>  ``` 
+>>> #!/bin/sh
+>>>    # Uncomment the following two lines for normal desktop:
+>>>    unset SESSION_MANAGER         ## uncomment
+>>>    exec /etc/X11/xinit/xinitrc   ## uncomment
+>>>    [ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+>>>    [ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+>>>    xsetroot -solid grey
+>>>    vncconfig -iconic &
+>>>    ## commented out following two lines
+>>>    #x-terminal-emulator -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
+>>>    #x-window-manager &
+>>>    ```
+>> 6. then reboot & tunneling
+>>> ``` sudo reboot now
+>>>ssh -L 5901:localhost:5901 -i <pem-file> ubuntu@<public-ip> ```
+>> 7. Enter **vncserver** on your EC2 and Open your **VNC viewer and connet to host 5901**
 ### 0508 Make Calulator 'Finalcal' more like *OOP* 'Newcal'
 > still chainging...
 
