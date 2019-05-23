@@ -1,8 +1,15 @@
 ## JAVAPRACTICE by LEEDAEHEE
 
 ### Before 0523, get JAVA files through Github
-> Install VScode as deb file at your firefox, EC2 server(VNC) then install deb file
-
+>Connect vncserver as localhost5901, open VNC viewer 
+>Install VScode as deb file at your firefox, EC2 server(VNC) then install deb file
+>>``` sudo apt install <directory path><downloaded file>.deb ```<br>
+>Then copy your github repository URL then open VS code
+>>Ctrl + ` : open terminal<br>
+ ```
+ git remote add origin <URL>
+ ```
+ 
 ### 0516 Setup Desktop on EC2, AWS
 > Process
 >> 1. Install **tasksel** in your EC2 server
