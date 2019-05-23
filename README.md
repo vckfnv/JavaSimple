@@ -1,4 +1,12 @@
 ## JAVAPRACTICE by LEEDAEHEE
+
+### Before 0523, get JAVA files through Github
+
+> Install VScode as deb file at your firefox, EC2 server(VNC)
+> then install this
+>> ``` sudo apt install <directory path><downloaded file>.deb 
+   ```
+
 ### 0516 Setup Desktop on EC2, AWS
 > Process
 >> 1. Install **tasksel** in your EC2 server
@@ -21,7 +29,7 @@
 >>>    #x-terminal-emulator -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
 >>>    #x-window-manager &
 >>>    ```
->> 6. then reboot & tunneling
+>> 6. then reboot & tunneling - this step must be done when using VNC viewer
 >>> ``` sudo reboot now
 >>>ssh -L 5901:localhost:5901 -i <pem-file> ubuntu@<public-ip> ```
 >> 7. Enter **vncserver** on your EC2 and Open your **VNC viewer and connet to host 5901**
@@ -40,7 +48,7 @@
 
 
 
-
+ 
 
 
 
