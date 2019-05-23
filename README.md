@@ -13,7 +13,8 @@
  ```
  git clone <URL>
  ```
- >>![image]()
+ >>![image](https://user-images.githubusercontent.com/48408497/58237556-4cd7ae80-7d80-11e9-9de9-e2ecffde0ae6.png)
+
 ### 0516 Setup Desktop on EC2, AWS
 > Process
 >> 1. Install **tasksel** in your EC2 server
