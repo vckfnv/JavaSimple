@@ -9,7 +9,11 @@
  ```
  git remote add origin <URL>
  ```
- 
+> or on your ubuntu terminal,
+ ```
+ git clone <URL>
+ ```
+ >>![image]()
 ### 0516 Setup Desktop on EC2, AWS
 > Process
 >> 1. Install **tasksel** in your EC2 server
