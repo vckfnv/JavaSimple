@@ -1,5 +1,46 @@
 ## JAVAPRACTICE by LEEDAEHEE
 
+### Before 0523, get JAVA files through Github
+>Connect vncserver as localhost5901, open VNC viewer 
+>Install VScode as deb file at your firefox, EC2 server(VNC) then install deb file
+>>``` sudo apt install <directory path><downloaded file>.deb ```<br>
+>Then copy your github repository URL then open VS code
+>>Ctrl + ` : open terminal<br>
+ ```
+ git remote add origin <URL>
+ ```
+> or on your ubuntu terminal,
+ ```
+ git clone <URL>
+ ```
+ >>![image](https://user-images.githubusercontent.com/48408497/58237556-4cd7ae80-7d80-11e9-9de9-e2ecffde0ae6.png)
+
+### 0516 Setup Desktop on EC2, AWS
+> Process
+>> 1. Install **tasksel** in your EC2 server
+>> 2. Install **ubuntu mate core**
+>>> ```sudo tasksel install ubuntu-mate-core```
+>> 3. Install **VNC server**
+>>> ```sudo apt install vnc4server```
+>> 4. Install **RealVNC** or tightVNC on your host!
+>> 5. then open your **xstartup** as vi at .vnc directory / **modify** as below
+>>>  ``` 
+>>> #!/bin/sh
+>>>    # Uncomment the following two lines for normal desktop:
+>>>    unset SESSION_MANAGER         ## uncomment
+>>>    exec /etc/X11/xinit/xinitrc   ## uncomment
+>>>    [ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+>>>    [ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+>>>    xsetroot -solid grey
+>>>    vncconfig -iconic &
+>>>    ## commented out following two lines
+>>>    #x-terminal-emulator -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
+>>>    #x-window-manager &
+>>>    ```
+>> 6. then reboot & tunneling - this step must be done when using VNC viewer
+>>> ``` sudo reboot now
+>>>ssh -L 5901:localhost:5901 -i <pem-file> ubuntu@<public-ip> ```
+>> 7. Enter **vncserver** on your EC2 and Open your **VNC viewer and connet to host 5901**
 ### 0508 Make Calulator 'Finalcal' more like *OOP* 'Newcal'
 > still chainging...
 
@@ -15,7 +56,7 @@
 
 
 
-
+ 
 
 
 
