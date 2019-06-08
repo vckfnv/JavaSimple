@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SimpleChatC",
+            "request": "launch",
+            "mainClass": "SimpleChatC"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Cient",
+            "request": "launch",
+            "mainClass": "chatt.Cient"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LostUpdate",
+            "request": "launch",
+            "mainClass": "LostUpdate"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyRunnable",
+            "request": "launch",
+            "mainClass": "MyRunnable"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Socketconnect",
+            "request": "launch",
+            "mainClass": "chatt.Socketconnect"
+        }
+    ]
+}

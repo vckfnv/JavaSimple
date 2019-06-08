@@ -15,9 +15,10 @@ public class Savet implements Serializable{
         try {
             
             ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream("Frog.ser"));
-            os.writeObject(one);
+            so.writeObject(one);
             os.writeObject(two);
             os.writeObject(three);
+            
 
             os.close();
                 
