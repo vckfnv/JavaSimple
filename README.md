@@ -2,7 +2,7 @@
 ### 0609 chatting project
 >before this, Igot some promblems about making class files<br>
 >But I solve this by using **cmd terminal**. Not VS code terminal
-
+>> I made **client** and **server**
 ### Before 0523, get JAVA files through Github
 >Connect vncserver as localhost5901, open VNC viewer 
 >Install VScode as deb file at your firefox, EC2 server(VNC) then install deb file
