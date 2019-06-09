@@ -7,10 +7,10 @@
 >>![image](https://user-images.githubusercontent.com/48408497/59165463-f11a6d00-8b56-11e9-98f7-565e9f3619c6.png)
 
 >> I made my Server class file as jar file(SimpleChatS) 'manifest.jar'<br>
->> And push to github using VS code.<br>![image](https://user-images.githubusercontent.com/48408497/59165567-e365e700-8b58-11e9-889f-d1491884af87.png)
+>> And push to github using VS code.<br>![image](https://user-images.githubusercontent.com/48408497/59165567-e365e700-8b58-11e9-889f-d1491884af87.png)<br>
 >> Using VNC server, I got my jar file using github<br>
 ![image](https://user-images.githubusercontent.com/48408497/59165589-13ad8580-8b59-11e9-8135-84bc2740ec86.png)
-
+>> Now, I got messages that server started<br>![image](https://user-images.githubusercontent.com/48408497/59165622-81f24800-8b59-11e9-8e34-dd64653ff221.png)<br>
 
 
 ### Before 0523, get JAVA files through Github
