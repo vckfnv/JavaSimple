@@ -1,4 +1,7 @@
 ## JAVAPRACTICE by LEEDAEHEE
+### 0609 chatting project
+>before this, Igot some promblems about making class files
+>But I solve this by using cmd terminal. Not VS code terminal
 
 ### Before 0523, get JAVA files through Github
 >Connect vncserver as localhost5901, open VNC viewer 
