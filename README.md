@@ -2,7 +2,10 @@
 ### 0609 chatting project
 >before this, Igot some promblems about making class files<br>
 >But I solve this by using **cmd terminal**. Not VS code terminal
->> I made **client** and **server**
+>> I made **client** and **server**<br>![image](https://user-images.githubusercontent.com/48408497/59165451-b284b280-8b56-11e9-89c5-249294c01653.png)<br>
+>> And I connect with my AWS EC2 server, which has the ip address of 35.174.3.156
+>>![image](https://user-images.githubusercontent.com/48408497/59165463-f11a6d00-8b56-11e9-98f7-565e9f3619c6.png)
+
 ### Before 0523, get JAVA files through Github
 >Connect vncserver as localhost5901, open VNC viewer 
 >Install VScode as deb file at your firefox, EC2 server(VNC) then install deb file
