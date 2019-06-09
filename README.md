@@ -1,10 +1,17 @@
 ## JAVAPRACTICE by LEEDAEHEE
 ### 0609 chatting project
 >before this, Igot some promblems about making class files<br>
->But I solve this by using **cmd terminal**. Not VS code terminal
+>But I solve this by using **cmd terminal**. Not VS code terminal<br> So I can make manifest.jar file.
 >> I made **client** and **server**<br>![image](https://user-images.githubusercontent.com/48408497/59165451-b284b280-8b56-11e9-89c5-249294c01653.png)<br>
 >> And I connect with my AWS EC2 server, which has the ip address of 35.174.3.156
 >>![image](https://user-images.githubusercontent.com/48408497/59165463-f11a6d00-8b56-11e9-98f7-565e9f3619c6.png)
+
+>> I made my Server class file as jar file(SimpleChatS) 'manifest.jar'<br>
+>> And push to github using VS code.<br>![image](https://user-images.githubusercontent.com/48408497/59165567-e365e700-8b58-11e9-889f-d1491884af87.png)
+>> Using VNC server, I got my jar file using github<br>
+![image](https://user-images.githubusercontent.com/48408497/59165589-13ad8580-8b59-11e9-8135-84bc2740ec86.png)
+
+
 
 ### Before 0523, get JAVA files through Github
 >Connect vncserver as localhost5901, open VNC viewer 
